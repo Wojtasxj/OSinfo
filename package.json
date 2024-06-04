@@ -2,5 +2,11 @@
   "name": "OSinfo",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "5.0.6"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  }
 }
